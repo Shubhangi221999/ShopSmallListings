@@ -1,0 +1,101 @@
+main{
+  background-color: #ffcc66;
+  font-family:sans-serif;
+}
+#title{
+  padding-top:20px;
+  
+}
+#title, #description {
+  text-align:center;
+}
+#survey-form {
+  background-color:#ff9933;
+  margin-top:30px;
+  margin-bottom:30px;
+  margin-right:200px;
+  margin-left:200px;
+  border-radius:10px;
+  padding:40px;
+  padding-left:50px;
+  font-size:20px;
+  font-weight:bold;
+  color:black;
+}
+#name, #email, #number, #dropdown, #comment{
+  font-size:12px;
+  width:80%;
+  padding:10px;
+  border-radius:5px;
+}
+#dropdown {
+  width:83%;
+}
+#submit{
+  background-color:#ff6600;
+  color:black;
+  width:50%;
+  padding:10px;
+  margin-top:10px;
+  font-size:18px;
+  font-weight:bold;
+}
+a {
+    text-decoration-color: teal;
+    
+    &:hover, &:focus {
+        text-decoration-color: orange;
+    }
+
+    &.solid {
+        text-decoration-style: solid;
+        text-decoration-thickness: 0.1em;
+        text-underline-offset: 2px;
+    }
+
+    &.double {
+        text-decoration-style: double;
+        text-decoration-thickness: 0.06em;
+        text-underline-offset: 2px;
+    }
+
+    &.dotted {
+        text-decoration-style: dotted;
+        text-decoration-thickness: 0.12em;
+        text-underline-offset: 2px;
+    }
+
+    &.dashed {
+        text-decoration-style: dashed;
+        text-decoration-thickness: 0.12em;
+        text-underline-offset: 2px;
+    }
+
+    &.wavy {
+        text-decoration-style: wavy;
+        text-decoration-thickness: 0.05em;
+        text-underline-offset: 1px;
+    }
+}
+
+
+.boxed {
+  border: 5px solid black ;
+}
+/* This part is just to make the demo page pretty. Ignore it */
+body {
+    background:rgb(255, 145, 0);
+    font-size: 1em;
+    line-height: 1.8;
+    color: rgb(12, 11, 10);
+    padding: 5rem;
+    text-align: center;
+}
+h1 {
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+a {
+    color: black;
+    font-size: 1rem;
+}
